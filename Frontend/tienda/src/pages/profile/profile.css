@@ -1,0 +1,9 @@
+
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;      
+    height: 50vh;          
+    box-sizing: border-box;
+}

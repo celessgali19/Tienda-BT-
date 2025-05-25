@@ -1,0 +1,44 @@
+ .login-form {
+   background: rgb(179, 213, 227);
+   padding: 2rem;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   width: 300px;
+ }
+
+ .login-form h2 {
+   margin-bottom: 1rem;
+ }
+
+ .login-form div {
+   margin-bottom: 1rem;
+ }
+
+ .login-form input {
+   width: 100%;
+   padding: 0.5rem;
+   margin-top: 0.3rem;
+   box-sizing: border-box;
+ }
+
+ .login-form button {
+   width: 100%;
+   padding: 0.7rem;
+   background-color: #333;
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+
+ }
+/* 🧠 Responsive: reduce padding en pantallas pequeñas */
+@media (max-width: 480px) {
+  .login-form {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .login-form h2 {
+    font-size: 1.2rem;
+  }
+}

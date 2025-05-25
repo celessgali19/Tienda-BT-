@@ -1,0 +1,5 @@
+| `user-service`    | Registro/login/gestión de usuarios                | `Users`                | `8081`          |
+| `product-service` | CRUD del catálogo de productos                    | `Product`              | `8082`          |
+| `cart-service`    | Manejo de carritos y productos dentro del carrito | `Cart`, `Cart_Product` | `8083`          |
+| `order-service`   | Gestión de órdenes de compra                      | `Orders`               | `8084`          |
+| `gateway-service` | Entrada única que enruta a los demás servicios    | —                      | `8080`          |
